@@ -1,14 +1,13 @@
 {
-    "name": "inertiajs/inertia-laravel",
+    "name": "anibalsanchez/inertia-lumen",
     "type": "library",
-    "description": "The Laravel adapter for Inertia.js.",
-    "keywords": ["laravel", "inertia"],
+    "description": "The Laravel Lumen adapter for Inertia.js.",
+    "keywords": ["laravel", "lumen", "inertia"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jonathan Reinink",
-            "email": "jonathan@reinink.ca",
-            "homepage": "https://reinink.ca"
+            "name": "Anibal Sanchez",
+            "homepage": "https://blog.anibalhsanchez.com"
         }
     ],
     "autoload": {
@@ -25,10 +24,15 @@
         }
     },
     "require": {
-        "laravel/framework": "^5.4|^6.0|^7.0|^8.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "~3.0"
+        "illuminate/contracts": "^5.4|^6.0|^7.0|^8.0",
+        "illuminate/http": "^5.4|^6.0|^7.0|^8.0",
+        "illuminate/support": "^5.4|^6.0|^7.0|^8.0",
+        "symfony/error-handler": "^5.1",
+        "symfony/http-kernel": "^5.1",
+        "symfony/http-foundation": "^5.1",
+        "symfony/mime": "^5.1",
+        "symfony/var-dumper": "^5.1",
+        "illuminate/routing": "^5.4|^6.0|^7.0|^8.0"
     },
     "extra": {
         "laravel": {
